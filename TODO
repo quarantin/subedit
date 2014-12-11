@@ -1,0 +1,4 @@
+sed -i 's/\(^\|[^a-zA-Z]\)dr\./\1Dr\./g' *.srt
+sed -i 's/\(^\|[^a-zA-Z]\)Mr\./\1Mr\./g' *.srt
+sed -i 's/\(^\|[^a-zA-Z]\)Mrs\./\1Mrs\./g' *.srt
+sed -i 's/\(^\|[^a-zA-Z]\)i\($\|[^a-zA-Z]\)/\1I\2/g' *.srt
